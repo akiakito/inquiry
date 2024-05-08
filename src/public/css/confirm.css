@@ -1,0 +1,70 @@
+.confirm__whole {
+    margin: 30px auto;
+}
+
+.contact__inner {
+    margin: 50px auto;
+    max-width: 1230px;
+}
+
+.contact__font {
+    color: #8B7969;
+    font-size: 35px;
+    text-align: center;
+}
+.form{
+    margin: 0 auto;
+    max-width: 1230px;
+    padding: 0px 100px;
+    width: 972px;
+}
+.table{
+    width: 100%;
+    height: 600px;
+    border-color: #E0DFDE;
+    margin: 40px;
+}
+.table__th{
+    background-color:#8B7969 ;
+    color: aliceblue;
+    width: 305px;
+    height: 70px;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+.table__td{
+    width: 667px;
+    padding: 20px;
+}
+.table__td input{
+    border: none;
+    font-size: 20px;
+    color: #8B7969;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.send button{
+    background-color: #8B7969;
+    color: aliceblue;
+    width: 120px;
+    height: 42px;
+    border: none;
+    margin-right: 60px;
+    font-size: 20px;
+}
+.Fixed button{
+    color: #ffffff;
+    width: 120px;
+    height: 42px;
+    background-color: #ffffff;
+    color: #8B7969;
+    border: none;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: #8B7969;
+}

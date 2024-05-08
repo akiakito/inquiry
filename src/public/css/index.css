@@ -1,0 +1,150 @@
+.index__whole{
+    margin: 0 auto;
+}
+.contact__inner{
+    margin: 50px auto;
+    max-width: 1230px;
+}
+.contact__font{
+    color:#8B7969 ;
+    font-size: 35px;
+    text-align: center;
+}
+.input{
+    margin: 0 auto;
+    max-width: 1230px;
+    padding: 0px 100px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1230px;
+    height: 38px;
+}
+.name__title{
+    font-size: 20px;
+    color: #8B7969;
+    text-align: center;
+}
+.asuta{
+    color:#FF9494 ;
+}
+.last__name{
+    width: 287px;
+    height: 38px;
+    background-color: #F4F4F4;
+    border: none;
+}
+.fast__name{
+    width: 287px;
+    height: 38px;
+    background-color: #F4F4F4;
+    border: none;
+}
+.sex{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1230px;
+    height: 38px;
+}
+.sex__text{
+    display: flex;
+    justify-content: space-between;
+    width: 365px;
+    margin-right: 210px;
+    text-align: left;
+}
+.men__label{
+    color: #8B7969;
+    font-size: 18px;
+    accent-color: #8B7969;
+}
+.meile{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1230px;
+    height: 38px;
+}
+.meile__input input{
+    width: 580px;
+    height: 38px;
+    background-color: #F4F4F4;
+    border: none;
+}
+.tel{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1230px;
+    height: 38px;
+}
+.tel__input{
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+}
+.tel__box{
+    background-color: #F4F4F4;
+    border: none;
+    font-size: 14px;
+}
+.haihun{
+    text-align: center;
+    margin: 9px 10px;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1230px;
+    height: 38px;
+}
+.address__div input{
+    width: 580px;
+    height: 38px;
+    background-color: #F4F4F4;
+    border: none;
+}
+.kinds{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1230px;
+    height: 38px;
+}
+.kinds__input select{
+    width: 338px;
+    margin-right: 242px;
+    height: 38px;
+    background-color: #F4F4F4;
+    border: none;
+}
+.problem{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1230px;
+    height: 130px;
+}
+.form__input--textarea textarea{
+    width: 580px;
+    height: 130px;
+    background-color: #F4F4F4;
+    border: none;
+}
+.form__button{
+    text-align: center;
+    position: relative;
+    margin: 50px;
+}
+.form__button-submit{
+    background-color: #8B7969;
+    color: #F4F4F4;
+    border: none;
+    width: 160px;
+    height: 46px;
+    font-size: 26px;
+}

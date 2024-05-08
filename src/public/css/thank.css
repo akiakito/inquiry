@@ -1,0 +1,37 @@
+.thank__whole{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 365px;
+    margin: 120px auto;
+}
+.thank__home{
+    text-align: center;
+    position: relative;
+}
+.thank__font{
+    font-size: 30px;
+    color: #8B7969;
+}
+.home__button{
+    width: 140px;
+    height: 45px;
+    padding: 10px 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #8B7969;
+    border: none;
+}
+.thank__you{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.thank__p{
+    font-size: 280px;
+    color: #8B79690D;
+}
+

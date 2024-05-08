@@ -1,0 +1,153 @@
+.admin__whole{
+    padding: 45px 258px;
+}
+
+.contact__inner {
+    height: 50px;
+    width: 913px;
+    margin: 20px auto;
+    max-width: 1230px;
+}
+
+.contact__font {
+    text-align: center;
+    font-size: 35px;
+    color: #8B7969;
+}
+
+.admin__box{
+    display: flex;
+    height: 50px;
+    width: 913px;
+    margin: 30px auto;
+}
+
+.admin__form{
+    display: flex;
+}
+
+.textbox__input{
+    height: 50px;
+    width: 305px;
+    margin-right: 5px;
+    background-color: #FBFBFB;
+    color: #BEB1A6;
+    border: 1px solid #E3DED9;
+    font-size: 16px;
+}
+
+.select{
+    height: 50px;
+    width: 75px;
+    margin-right: 10px;
+    background-color: #FBFBFB;
+    color: #BEB1A6;
+    border: 1px solid #E3DED9;
+    font-size: 16px;
+    text-align: center;
+}
+
+.select__kind{
+    height: 50px;
+    width: 190px;
+    margin-right: 5px;
+    background-color: #FBFBFB;
+    color: #BEB1A6;
+    border: 1px solid #E3DED9;
+    font-size: 16px;
+    text-align: center;
+}
+
+.day__input{
+    height: 50px;
+    width: 120px;
+    margin-right: 10px;
+    background-color: #FBFBFB;
+    color: #BEB1A6;
+    border: 1px solid #E3DED9;
+    font-size: 16px;
+    text-align: center;
+}
+
+.admin__button{
+    height: 50px;
+    width: 90px;
+    margin-right: 5px;
+    background-color: #8B7969;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+}
+
+.reset__button{
+    height: 50px;
+    width: 90px;
+    margin-right: 5px;
+    background-color: #D9C6B5;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+}
+
+.export{
+    width: 913px;
+}
+
+.export__button{
+    height: 39px;
+    width: 148px;
+    background-color: #E1DBD699;
+    color: #8B7969;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.table__div{
+    width: 913px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.table{
+    border: 1px solid #E0DFDE;
+}
+
+.tablet__tr{
+    background-color:#8B7969 ;
+    color: #FFFFFF;
+    height: 59px;
+    width: 100%;
+}
+
+.name__th{
+    width: 120px;
+}
+
+.sex__th{
+    width: 120px;
+}
+
+.mail__th{
+    width: 280px;
+}
+
+.kind__th{
+    width: 280px;
+}
+
+.zero{
+    width: 110px;
+}
+
+.table__tr{
+    height: 72px;
+    color: #8B7969;
+}
+
+.detail__button{
+    width: 76px;
+    height: 39px;
+    background-color:#F4F4F44D ;
+    border: 1px solid #D9C6B599;
+    color: #D9C6B5;
+}
