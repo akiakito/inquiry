@@ -12,7 +12,8 @@
         </h2>
     </div>
     <div class="input">
-        <form class="input__form">
+        <form class="input__form"action="/confirm" method="post">
+            @csrf
             <div class="name">
                 <div class="name__title">
                     <span class="title__name">お名前</span>
@@ -30,15 +31,15 @@
                 </div>
                 <div class="sex__text">
                     <label class="men__label">
-                        <input name="men" type="radio"checked />
+                        <input name="sex" type="radio"checked />
                         男性
                     </label>
                     <label class="men__label">
-                        <input name="men" type="radio" />
+                        <input name="sex" type="radio" />
                         女性
                     </label>
                     <label class="men__label">
-                        <input name="men" type="radio" />
+                        <input name="sex" type="radio" />
                         その他
                     </label>
                 </div>
@@ -49,7 +50,7 @@
                     <span class="asuta">※</span>
                 </div>
                 <div class="meile__input">
-                    <input type="email"id="email"placeholder="例: test@example.com" />
+                    <input type="email"name="email"placeholder="例: test@example.com" />
                 </div>
             </div>
             <div class="tel">
@@ -71,7 +72,7 @@
                     <span class="asuta">※</span>
                 </div>
                 <div class="address__div">
-                    <input type="text"placeholder="例: 東京都渋谷区千駄ヶ谷1-2-3">
+                    <input type="text"name="address"placeholder="例: 東京都渋谷区千駄ヶ谷1-2-3">
                 </div>
             </div>
             <div class="address">
@@ -79,7 +80,7 @@
                     <span class="title__name">建物</span>
                 </div>
                 <div class="address__div">
-                    <input class="address__input"type="text"placeholder="例: 千駄ヶ谷マンション101">
+                    <input class="address__input"name="building"type="text"placeholder="例: 千駄ヶ谷マンション101">
                 </div>
             </div>
             <div class="kinds">
@@ -88,11 +89,11 @@
                     <span class="asuta">※</span>
                 </div>
                 <div class="kinds__input">
-                    <select name="select">
+                    <select class="select"name="select">
                     <option value="" hidden>選択してください</option>
-                    <option value="zero"></option>
-                    <option value="one"></option>
-                    <option value="twe"></option>
+                    <option value="zero"name="select"></option>
+                    <option value="one"name="select"></option>
+                    <option value="twe"name="select"></option>
                     </select>
                 </div>
             </div>

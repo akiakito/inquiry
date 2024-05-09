@@ -19,7 +19,7 @@
                         お名前
                     </th>
                     <td class="table__td">
-                        <input type="text" name="name" value="サンプルテキスト" />
+                        <input type="text" name="name" value="{{ $contact['name'] }}" />
                     </td>
                 </tr>
                 <tr class="table__tr">
@@ -27,7 +27,7 @@
                         性別
                     </th>
                     <td class="table__td">
-                        <input type="text" name="name" value="サンプルテキスト" />
+                        <input type="text" name="name" value="{{ $contact['sex'] }}" />
                     </td>
                 </tr>
                 <tr class="table__tr">
@@ -35,7 +35,7 @@
                         メールアドレス
                     </th>
                     <td class="table__td">
-                        <input type="email" name="email" value="サンプルテキスト" />
+                        <input type="email" name="email" value="{{ $contact['email'] }}" />
                     </td>
                 </tr>
                 <tr class="table__tr">
@@ -43,7 +43,7 @@
                         電話番号
                     </th>
                     <td class="table__td">
-                        <input type="tel" name="tel" value="サンプルテキスト" />
+                        <input type="tel" name="tel" value="{{ $contact['tel'] }}" />
                     </td>
                 </tr>
                 <tr class="table__tr">
@@ -51,15 +51,7 @@
                         住所
                     </th>
                     <td class="table__td">
-                        <input type="text" name="text" value="サンプルテキスト" />
-                    </td>
-                </tr>
-                <tr class="table__tr">
-                    <th class="table__th">
-                        建物
-                    </th>
-                    <td class="table__td">
-                        <input type="text" name="building" value="サンプルテキスト" />
+                        <input type="text" name="text" value="{{ $contact['address'] }}" />
                     </td>
                 </tr>
                 <tr class="table__tr">
@@ -67,7 +59,7 @@
                         建物名
                     </th>
                     <td class="table__td">
-                        <input type="text" name="building" value="サンプルテキスト" />
+                        <input type="text" name="building" value="{{ $contact['building'] }}" />
                     </td>
                 </tr>
                 <tr class="table__tr">
@@ -75,7 +67,7 @@
                         お問い合わせの種類
                     </th>
                     <td class="table__td">
-                        <input type="text" name="kinds" value="サンプルテキスト" />
+                        <input type="text" name="kinds" value="{{ $contact['select'] }}" />
                     </td>
                 </tr>
                 <tr class="table__tr">
@@ -83,7 +75,7 @@
                         お問い合わせ内容
                     </th>
                     <td class="table__td">
-                        <input type="text" name="content" value="サンプルテキスト" />
+                        <input type="text" name="content" value="{{ $contact['content'] }}" />
                     </td>
                 </tr>
             </table>
